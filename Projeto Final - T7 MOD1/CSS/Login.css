@@ -9,6 +9,7 @@
 display: flex;
 }
 .imgLogin{
+   
     display: flex;
     justify-content: center;
     align-items: center;
@@ -19,6 +20,7 @@ display: flex;
     height: 100vh;
 }
 .imgLogin img{
+   
     width: 50%;
 }
 
