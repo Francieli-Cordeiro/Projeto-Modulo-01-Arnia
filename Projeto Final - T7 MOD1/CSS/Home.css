@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&family=Sora:wght@100..800&display=swap');
+
+@font-face {
+    font-family: 'Guardians';
+    font-weight: normal;
+    font-style: normal;
+    src: url(../fonts/Guardians.ttf);
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Sora", sans-serif;
+}
+
+.topo{
+    background-image: url(../img/banner-abertura.png);
+    background-repeat:no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 565px;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 2em 5em;
+    align-items: center;
+}
+
+.usuario{
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+.usuario img{
+    width: 53px;
+    height: 50px;
+    border: 2px solid #DCB6F8;
+    border-radius: 50%;
+}
+
+.usuario span{
+    color: white;
+}
+
+.linksNavbar{
+    display: flex;
+    gap: 4em;
+}
+.linksNavbar a{
+    color: white;
+    text-decoration: none;
+
+}
+
+.saldo_home{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+.saldo_home h2{
+    font-size: 24px;
+    font-weight: 400;
+}
+.saldo_home h3{
+    font-family: 'Guardians';
+    font-size: 80px;
+    color:#DCB8F8;
+}
+
+.saldo_home h4{
+    color:#DCB8F8;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.pedras_home{
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+    gap: 0.5em;
+}
+
+.lembretes_home{
+    padding: 2em;
+    text-align: center;
+    color: white;
+}
+
+.lembretes_home span:first-child{
+    font-size: 18px;
+    font-weight: 700;
+    background-color: #080115;
+    padding: 0.5em 1em;
+    border-radius: 15px;
+}
+
+.calendario{
+    color: #DCB6F8;
+    margin: 0 0.5em;
+}
+
+.lembretes_home span:last-child{
+    font-size: 20px;
+    line-height: 5em;
+}
+
+.barra-pesquisa{
+    display: flex;
+    align-items:center;
+    justify-content: start;
+    background-color: white;
+    width: 661px;
+    height: 72px;
+    border-radius: 5px;
+    box-shadow: 0px 7px 30px 0px #BBC0CD66;
+    margin: 0 auto;
+}
+
+.barra-pesquisa img{
+    padding-left: 1em;
+    font-size: 32px;
+}
+.barra-pesquisa input{
+    padding: 1em 1.5em;
+    width: 75%;
+    outline: 0;
+    border: none;
+}
+
+.barra-pesquisa input::-webkit-input-placeholder {  
+    color:#9E9E9E;
+    font-size: 18px;  
+ }
+
+ .banner-avaliacao{
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    height: 350px;
+    margin: 8em auto;
+    background-image: url(../img/banner-abertura.png);
+    background-repeat:no-repeat;
+    background-size: cover;
+    border-radius: 16px;
+ }
+
+ .datas-informacoes{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: baseline;
+    gap: 1em;
+    color: white;
+    margin: 0 auto;
+    padding: 0 64px;
+ }
+
+ .datas-informacoes h4{
+    color: #DCB6F8;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+ }
+
+ .datas-informacoes h3{
+    width: 60%;
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: 0.2px;
+ }
+
+ .datas-informacoes h5{
+    color: #DCB6F8;
+    font-size: 18px;
+    font-weight: 400;
+ }
+ .datas-info{
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+ }
+
+ .imagens-decorativas{
+    display: flex;
+    align-items: end;
+ }
+ .imagens-decorativas img:first-child{
+    z-index: 1;
+ }
+ 
+ .imagens-decorativas img:last-child{
+    width: 170px;
+    position: relative;
+    right: 59px;
+}
+
+.produtos h2{
+    font-size: 32px;
+    font-weight: 700;
+    margin: 0 5.8em;
+}
+.produtosResgatar{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 2em 0;
+    
+}
+.produtosResgatar div{
+    display: flex;
+    flex-direction: column; 
+    align-items: stretch;
+    width: 16%;
+    border-radius: 16px;
+}
+.produtosResgatar img{
+    max-width: 270px;
+    margin: 0 auto;
+    
+}
+.produtosResgatar h2{
+    font-size: 14px;
+    text-align: start;
+    margin: 0.5em;
+}
+.produtosResgatar span{
+    color: #9E9E9E;
+    font-size: 12px;
+    margin: 0.5em;
+}
+.produtos button{
+    background-color: #502B6B;
+    border-radius: 8px;
+    border: none;
+    color: white;
+    padding: 0.8em;
+    width: 80%;
+    margin: 0 auto;
+}
