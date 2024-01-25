@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <title>Projeto Modulo 1 </title>
+    <link rel="stylesheet" href="../CSS/Meu Perfil.css">
+    <script src="../JavaScript/Meu Perfil.js" defer></script>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="usuario">
+                <img src="../Imagem/foto perfil.png" alt="">
+                <span>Olá, <b>Ana Ester</b></span>
+            </div>
+            <div class="linksNavbar">
+                <a href="../Html/Home.html">Home</a>
+                <a href="#">Produtos</a>
+                <a href="../Html/produtoResgatado.html">Meu Perfil</a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section id="abas">
+            <div id="container">
+                <div class="tab-menu">
+                    <div class="tab-buttons">
+                        <img class="icone-perfil" src="../Imagem/icone pessoa editado.png" alt="icone de uma pessoa">
+                        <button type="button" class="tab-btn" content-id='meus-dados'>Meus Dados</button>
+                    </div>
+                    <div class="tab-buttons">
+                        <img class="icone-perfil-normal" src="../Imagem/icone cupom editado.png" alt="icone de uma pessoa ">
+                        <button onclick="meusResgates()" type="button" class="tab-btn" content-id='meus-dados'>Meus resgates</button>
+                    </div>
+                    <div class="tab-buttons">
+                        <img class="icone-perfil-normal" src="../Imagem/icone joia editado.png" alt="icone de uma jóia">
+                        <button onclick="minhasJoias()" type="button" class="tab-btn" content-id='meus-dados'>Minhas jóias</button>
+                    </div>
+                    <div class="tab-buttons">
+                        <img class="icone-perfil-normal" src="../Imagem/icone sair editado.png" alt="icone sair">
+                        <button onclick="sair()" type="button" class="tab-btn" content-id='meus-dados'>Sair</button>
+                    </div>
+                </div>
+                <div class="tab-conteudo">
+                    <div class="content" id='meus-dados'>
+                        <h2>Meus Dados</h2>
+                        <img src="../Imagem/foto perfil.png" alt="imagem da foto de perfil do usuário">
+                        <form id="formulario">
+                            <div class="input">
+                                <label for="nome">Nome</label><br>
+                                <input type="text" name="nome" id="nome">
+                                </div>
+                            <div class="input">
+                                <label for="email">E-mail</label><br>
+                                <input type="email" name="email" id="email">
+                             </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+</body>
+</html>

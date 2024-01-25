@@ -15,7 +15,7 @@
 }
 
 .topo{
-    background-image: url(../img/banner-abertura.png);
+    background-image: url(../Imagem/imagem\ certa.png);
     background-repeat:no-repeat;
     background-size: cover;
     width: 100%;
@@ -39,7 +39,6 @@
 .usuario img{
     width: 53px;
     height: 50px;
-    border: 2px solid #DCB6F8;
     border-radius: 50%;
 }
 
@@ -47,39 +46,39 @@
     color: white;
 }
 
-.linksNavbar{
+.navbar{
     display: flex;
     gap: 4em;
 }
-.linksNavbar a{
+.navbar a{
     color: white;
     text-decoration: none;
 
 }
 
-.saldo_home{
+.saldoPaginaInicial{
     display: flex;
     flex-direction: column;
     align-items: center;
     color: white;
 }
-.saldo_home h2{
+.saldoPaginaInicialh2{
     font-size: 24px;
     font-weight: 400;
 }
-.saldo_home h3{
+.saldoPaginaInicial h3{
     font-family: 'Guardians';
     font-size: 80px;
     color:#DCB8F8;
 }
 
-.saldo_home h4{
+.saldoPaginaInicial h4{
     color:#DCB8F8;
-    font-size: 24px;
+    font-size: 24px,
     font-weight: 400;
 }
 
-.pedras_home{
+.joiasPaginaInicial{
     display: flex;
     justify-content: center;
     margin-top: 2%;
@@ -105,7 +104,7 @@
     margin: 0 0.5em;
 }
 
-.lembretes_home span:last-child{
+.lembretesHome span:last-child{
     font-size: 20px;
     line-height: 5em;
 }
@@ -144,7 +143,7 @@
     width: 80%;
     height: 350px;
     margin: 8em auto;
-    background-image: url(../img/banner-abertura.png);
+    background-image: url(../Imagem/imagem\ certa.png);
     background-repeat:no-repeat;
     background-size: cover;
     border-radius: 16px;
@@ -207,31 +206,41 @@
 }
 .produtosResgatar{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
-    margin: 2em 0;
+    margin: 2em auto;
+    align-items: flex-end;
     
 }
 .produtosResgatar div{
     display: flex;
     flex-direction: column; 
-    align-items: stretch;
-    width: 16%;
+    justify-content: space-between;
+    height: 50%;
+    max-width: 270px;
+    gap: 0.5em;
     border-radius: 16px;
 }
 .produtosResgatar img{
+    width: 50%;
+    height: 50%;
     max-width: 270px;
+    max-height: 175px;
     margin: 0 auto;
     
 }
 .produtosResgatar h2{
     font-size: 14px;
     text-align: start;
-    margin: 0.5em;
+    margin: 0 auto;
+    width: 75%;
 }
 .produtosResgatar span{
     color: #9E9E9E;
     font-size: 12px;
-    margin: 0.5em;
+    margin: 0 auto;
+    margin: 0 auto;
+    width: 75%;
 }
 .produtos button{
     background-color: #502B6B;

@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&family=Sora:wght@100..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Sora", sans-serif;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 2em 5em;
+    align-items: center;
+}
+
+.usuario{
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+.usuario img{
+    width: 53px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.usuario span{
+    color: #502B6B;
+}
+
+.linksNavbar{
+    display: flex;
+    gap: 4em;
+}
+.linksNavbar a{
+    color:#000000;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+#container{
+    display: flex;
+    justify-content: space-around;
+    margin: 5em auto;    
+}
+.tab-buttons{
+    display: flex;
+    align-self: center;
+    border-bottom: 1px solid #EEEEEE;
+    width: 382px;
+    gap: 0.5em;
+    padding-bottom: 1em;
+    margin-bottom: 1em;
+}
+.icone-perfil{
+    background-color: #502B6B;
+    border-radius: 3px;
+    padding: 0.5em;
+}
+
+.icone-perfil-normal{
+    background-color: #F3E3FF;
+    border-radius: 8px;
+    padding: 0.5em;
+}
+.tab-btn{
+    background: none;
+    outline: none;
+    cursor: pointer;
+    color: #502B6B;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+}
+.linha-abaixo{
+    border-bottom: 1px solid #EEEEEE;
+}
+.tab-conteudo{
+    display: flex;
+    box-shadow: 0px 7px 30px 0px #BBC0CD66;
+    width: 494px;
+    height: 556px;
+    border-radius: 48px;
+}
+#meus-dados{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: stretch;
+    gap: 1em;
+    padding: 3em;
+}
+
+#meus-dados img{
+    max-width: 300px;
+    width: 30%;
+}
+
+.input{
+    border: 1px solid #EEEEEE;
+    box-shadow: 0px 3px 5px 0px #AFB2BB33;
+    border-radius: 16px;
+    width: 382px;
+    max-width: 80%;
+    max-height: 72px;
+    padding: 0.5em 2em 0.5em 0.5em;
+    margin: 1em 0;
+
+}
+label{
+    color: #9E9E9E;
+    font-size: 12px;
+    font-family: 'Poppins', sans-serif;
+    margin: 0 0.5em;
+}
+input{
+    border: none;
+    outline: none;
+    width: 350px;
+    height: 35px;
+    margin: 0 0.5em;
+}

@@ -2,7 +2,8 @@ body{
    
     background-image: url(../Imagem/imagem\ certa.png);
     background-color: #502B6B;
-    background-size:130%;
+    background-size: cover;
+    background-repeat: no-repeat;
     
 }
 .index{
@@ -19,14 +20,14 @@ body{
     width: 25%;
     height: 72px;
     padding: 10px;
-    background-color:#DCB6F8;
     color: #502B6B;
-    font-weight: bold;
     border: none;
     cursor: pointer;
     border-radius: 16px;
     font-size: 25px;
-
+    background-color:#DCB6F8;
+    font-weight: bold;
+    align-items: center;
 
  
    
