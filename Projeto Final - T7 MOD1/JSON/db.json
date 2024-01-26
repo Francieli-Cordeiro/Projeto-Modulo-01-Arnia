@@ -4,30 +4,86 @@
         {
             "id": 1,
             "nome": "Teclado sem fio BT teclado dobrável ",
-            "preco": " 132.70 ",
+            "preco": " 18",
             "descricao": "Homesen Teclado sem fio BT teclado dobrável portátil ultra fino teclado BT com touchpad para Windows/Android/iOS Cinza ",
             "imagem": "../Imagem/produtos/teclado dobravel.jpg"
           },
           {
             "id": 2,
             "nome": "Mouse Sem Fio Recarregavel",
-            "preco": "26.50",
+            "preco": "7",
             "descricao": "Mouse Sem Fio Recarregavel 2.4g Wireless USB para Notebook Desktop TV (PRETO)",
             "imagem": "../Imagem/produtos/mouseSemFio.jpg"
           },
           {
             "id": 3,
             "nome": "Mouse Pad Preto ",
-            "preco": "4.98 ",
+            "preco": "5 ",
             "descricao": " Pad mouse preto de borracha ",
             "imagem": "../Imagem/produtos/mousePad.jpg "
           },
           {
             "id": 4,
             "nome": " Fone De Ouvido Bluetooth ",
-            "preco": "27.74 ",
+            "preco": "15 ",
             "descricao": "Fone De Ouvido Bluetooth 5.0 Sem Fio Tws Compatível Com Iphone Android",
             "imagem": "../Imagem/produtos/fone de ouvido.jpg "
-       }    
+       } , 
+       {
+        "id": 5,
+        "nome": " Fone De Ouvido Bluetooth ",
+        "preco": "27 ",
+        "descricao": "Fone De Ouvido Bluetooth 5.0 Sem Fio Tws Compatível Com Iphone Android",
+        "imagem": "../Imagem/produtos/fone de ouvido.jpg "
+      },
+        {
+          "id": 6,
+          "nome": " Fone De Ouvido Bluetooth ",
+          "preco": "27",
+          "descricao": "Fone De Ouvido Bluetooth 5.0  Sem Fio Tws Compatível Com Iphone Android",
+          "imagem": "../Imagem/produtos/fone de ouvido.jpg "
+        },
+        {
+          "id": 7,
+          "nome": " Fone De Ouvido Bluetooth ",
+          "preco": "27 ",
+          "descricao": "Fone De Ouvido Bluetooth 5.0  Sem Fio Tws Compatível Com Iphone Android",
+          "imagem": "../Imagem/produtos/fone de ouvido.jpg "
+        },
+        {
+          "id": 8,
+          "nome": " Fone De Ouvido Bluetooth ",
+          "preco": "27.74 ",
+          "descricao": "Fone De Ouvido Bluetooth 5.0  Sem Fio Tws Compatível Com Iphone Android",
+          "imagem": "../Imagem/produtos/fone de ouvido.jpg "
+        }
+        
+    ]
+    "resgates": [
+      {
+        "id": "7de7",
+        "produtoId": 2,
+        "nome": "Notebook ABC",
+        "imagem": "../img/Produtos/51ydgHcdC9L._AC_SL1000_.jpg",
+        "joias": "5",
+        "horario": "23 de janeiro"
+      },
+      {
+        "id": "3837",
+        "produtoId": 3,
+        "nome": "Smartphone A31",
+        "imagem": "https://i0.wp.com/www.socialnews.xyz/wp-content/uploads/2023/03/15/bd2699709ff9b92ed09de2a756837446.jpg?quality=80&zoom=1&ssl=1",
+        "joias": "2",
+        "horario": "23 de janeiro"
+      }
+    ],
+    "usuarios":[
+      {
+        "id":"1",
+        "login":"admin",
+        "senha":"admin",
+        "nome":"Ana Ester",
+        "email":"contato@lojamodelo.com.br"
+      }
     ]
 }

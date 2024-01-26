@@ -14,7 +14,7 @@
     font-family: "Sora", sans-serif;
 }
 
-.topo{
+.inicioPagina{
     background-image: url(../Imagem/imagem\ certa.png);
     background-repeat:no-repeat;
     background-size: cover;
@@ -27,7 +27,7 @@
 .navbar{
     display: flex;
     justify-content: space-between;
-    padding: 2em 5em;
+    padding: 3em 10em;
     align-items: center;
 }
 
@@ -80,9 +80,10 @@
 
 .joiasPaginaInicial{
     display: flex;
-    justify-content: center;
     margin-top: 2%;
     gap: 0.5em;
+    flex-direction:row;
+    width: 100%;
 }
 
 .lembretesHome{
@@ -149,7 +150,7 @@
     border-radius: 16px;
  }
 
- .datas-informacoes{
+ .informacaoBanner{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -160,21 +161,21 @@
     padding: 0 64px;
  }
 
- .datas-informacoes h4{
-    color: #DCB6F8;
+ .informacaoBanner h4{
+    color:white;
     font-size: 16px;
     font-weight: 400;
     text-transform: uppercase;
  }
 
- .datas-informacoes h3{
+ .informacaoBanner h3{
     width: 60%;
     font-size: 40px;
     font-weight: 700;
     letter-spacing: 0.2px;
  }
 
- .datas-informacoes h5{
+ .informacaoBanner h5{
     color: #DCB6F8;
     font-size: 18px;
     font-weight: 400;
@@ -204,7 +205,7 @@
     font-weight: 700;
     margin: 0 8.8 em;
 }
-.produtosResgatar{
+.resgatarProdutos{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -212,7 +213,7 @@
     align-items: flex-end;
     
 }
-.produtosResgatar div{
+.resgatarProdutos div{
     display: flex;
     flex-direction: column; 
     justify-content: space-between;
@@ -221,7 +222,7 @@
     gap: 0.5em;
     border-radius: 16px;
 }
-.produtosResgatar img{
+.presgatarProdutos img{
     width: 50%;
     height: 50%;
     max-width: 270px;
@@ -229,13 +230,13 @@
     margin: 0 auto;
     
 }
-.produtosResgatar h2{
+.resgatarProdutos h2{
     font-size: 14px;
     text-align: start;
     margin: 0 auto;
     width: 75%;
 }
-.produtosResgatar span{
+.resgatarProdutos span{
     color: #9E9E9E;
     font-size: 12px;
     margin: 0 auto;

@@ -3,7 +3,7 @@ const resgatarProduto = (id) => {
 }
 
 const mostrarDados = (produtos) => {
-const divProdutos = document.querySelector('.produtoResgatado')
+const Produtos = document.querySelector('.resgatarProdutos')
 
 produtos.forEach(produto => {
     const id = produto.id
@@ -12,7 +12,7 @@ produtos.forEach(produto => {
     const descricao = produto.descricao
     const imagem = produto.imagem
 
-    divProdutos.innerHTML += 
+    Produtos.innerHTML += 
     `   <div>
             <img src="${imagem}">
             <h2>${nome}</h2>
