@@ -13,7 +13,7 @@
             "nome": "Mouse Sem Fio Recarregavel",
             "preco": "26.50",
             "descricao": "Mouse Sem Fio Recarregavel 2.4g Wireless USB para Notebook Desktop TV (PRETO)",
-            "imagem": "..Imagem/produtos/mouseSemFio.jpg/"
+            "imagem": "../Imagem/produtos/mouseSemFio.jpg"
           },
           {
             "id": 3,
@@ -28,35 +28,6 @@
             "preco": "27.74 ",
             "descricao": "Fone De Ouvido Bluetooth 5.0 Sem Fio Tws Compatível Com Iphone Android",
             "imagem": "../Imagem/produtos/fone de ouvido.jpg "
-          },
-          {
-          "id": 5,
-          "nome": " Fone De Ouvido Bluetooth ",
-          "preco": "27.74 ",
-          "descricao": "Fone De Ouvido Bluetooth 5.0 Sem Fio Tws Compatível Com Iphone Android",
-          "imagem": "../Imagem/produtos/fone de ouvido.jpg "
-        },
-          {
-            "id": 6,
-            "nome": " Fone De Ouvido Bluetooth ",
-            "preco": "27.74 ",
-            "descricao": "Fone De Ouvido Bluetooth 5.0  Sem Fio Tws Compatível Com Iphone Android",
-            "imagem": "../Imagem/produtos/fone de ouvido.jpg "
-          },
-          {
-            "id": 7,
-            "nome": " Fone De Ouvido Bluetooth ",
-            "preco": "27.74 ",
-            "descricao": "Fone De Ouvido Bluetooth 5.0  Sem Fio Tws Compatível Com Iphone Android",
-            "imagem": "../Imagem/produtos/fone de ouvido.jpg "
-          },
-          {
-            "id": 8,
-            "nome": " Fone De Ouvido Bluetooth ",
-            "preco": "27.74 ",
-            "descricao": "Fone De Ouvido Bluetooth 5.0  Sem Fio Tws Compatível Com Iphone Android",
-            "imagem": "../Imagem/produtos/fone de ouvido.jpg "
-          }
+       }    
     ]
 }
-----

@@ -1,9 +1,9 @@
 const resgatarProduto = (id) => {
-    window.location.href = `../html/produto.html?id=${id}`
+    window.location.href = `../Html/produto.html?id=${id}`
 }
 
 const mostrarDados = (produtos) => {
-const divProdutos = document.querySelector('.produtosResgatar')
+const divProdutos = document.querySelector('.produtoResgatado')
 
 produtos.forEach(produto => {
     const id = produto.id
@@ -23,7 +23,7 @@ produtos.forEach(produto => {
 }
 
 const carregarDados = async() => {
-const dados = await fetch ('*************')
+const dados = await fetch ('http://localhost:3000/produtos')
 console.log(dados)
 const produtos = await dados.json()
 console.log(produtos)
