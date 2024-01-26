@@ -82,8 +82,9 @@
     display: flex;
     margin-top: 2%;
     gap: 0.5em;
-    flex-direction:row;
-    width: 100%;
+    align-items: center;
+    justify-content: center;
+
 }
 
 .lembretesHome{
@@ -98,6 +99,8 @@
     background-color: #080115;
     padding: 0.5em 1em;
     border-radius: 15px;
+    width: 500px;
+    margin: 0 auto;
 }
 
 .calendario{
@@ -110,27 +113,35 @@
     line-height: 5em;
 }
 
-.barra-pesquisa{
+.barraPesquisa{
     display: flex;
     align-items:center;
-    justify-content: start;
+    justify-content: flex-start;
     background-color: white;
-    width: 661px;
+    width: 560px;
     height: 72px;
     border-radius: 5px;
     box-shadow: 0px 7px 30px 0px #BBC0CD66;
     margin: 0 auto;
+    position: relative;
+    bottom: 50px;
+
 }
 
 .barraPesquisa img{
-    padding-left: 0.5em;
-    font-size: 32px;
+   width: 32px; ;
+   margin-left: 10px;
+   padding-left: 20px;
+
 }
 .barraPesquisa input{
     padding: 1em 1.5em;
-    width: 100%;
+    width: 80%;
     outline: 30;
     border: none;
+    margin: 0 1em;
+   
+
 }
 
 .barraPesquisa input::-webkit-input-placeholder {  
@@ -169,10 +180,12 @@
  }
 
  .informacaoBanner h3{
-    width: 60%;
+    
     font-size: 40px;
     font-weight: 700;
     letter-spacing: 0.2px;
+
+
  }
 
  .informacaoBanner h5{
@@ -251,4 +264,8 @@
     padding: 0.8em;
     width: 80%;
     margin: 0 auto;
+}
+.iniciopaginacentralizar { 
+    display: flex;
+    flex-direction: column;
 }

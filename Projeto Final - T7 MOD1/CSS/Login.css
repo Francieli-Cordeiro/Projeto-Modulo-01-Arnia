@@ -1,19 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&family=Sora:wght@100..800&display=swap');
 
 body {
-    margin: 10;
+    margin: 0;
     padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     background-image: url(../Imagem/imagem\ certa.png);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover; 
 
 }
 
 .logo{
 display: flex;
+justify-content: center;
+align-items: center;*/
 }
 
 .imagemLogoFundo{
@@ -23,8 +22,6 @@ display: flex;
     align-items: center;
     width: 50vw;
     height: 100vh;
-     
- 
     
 }
 .imagemLogo img{
@@ -32,25 +29,31 @@ display: flex;
     width: 50%;
 }
 
-.login{
+
+.facaLogin{
 
     display: flex;
-    flex-direction: column;
     justify-content: center;
     background-color: white;
-    margin: 0 auto;
-    gap: 0.5em;
-    border-top-left-radius: 35px;
-    border-bottom-left-radius: 35px;
     width: 50vw;
     height: 100vh;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    flex-direction:column;
+    align-items:center;
+    /*width: 235px;
+    height: 45px;
+    top: 253px;
+    left: 896px;
+font-size: 32px;
+font-weight: 700;
+line-height: 45px;
+letter-spacing: 0.20px;
+text-align:left;
+justify-content: center;
+background-color: white;*/
 
-    
-}
-
-.login span{
-    font-size: 16px;
-    color: #3E4C76;
+   
 }
 
 .login h1{
@@ -58,6 +61,15 @@ display: flex;
     font-size: 32px;
     font-weight: 700;
     margin-bottom: 0.5em;
+    text-align: left;
+ width: 15em;
+    
+}
+.login span {
+    text-align: left;
+    width: 30em;
+
+
 }
 
 label{
@@ -69,18 +81,29 @@ input{
     padding: 0.4em;
     font-size: 18px;
     font-weight: 500;
-    width: 95%;
+    width: 30 em;
     border: none;
     outline:none;
 
+  
 }
 
 .input{
   padding: 0.5em;
   border: 1px solid rgb(89, 89, 95);
   border-radius: 15px;
-  width: 22em;
-  margin: 0.9em 0;
+  width: 30em;
+  margin: 0.8em;
+
+/* width: 382px;
+height: 72px;
+top: 528px;
+left: 896px;
+padding: 12px, 64px, 12px, 64px;
+border-radius: 16px;
+gap: 10px; */
+
+
   
 }
 
@@ -88,9 +111,10 @@ button{
     background-color: #502B6B;
     color: white;
     font-size: 20px;
-    margin: 1em 0;
-    width: 100%;
-    padding: 1em;
-    border-radius: 15px;
+    margin: 0.8em 3em;
+    width: 25em;
+    padding: 0.3em;
+    border-radius: 20px;
     font-weight: 700;
+    justify-content: center;
 }

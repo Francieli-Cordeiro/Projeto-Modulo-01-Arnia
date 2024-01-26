@@ -1,0 +1,84 @@
+
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>MinhasJoias</title>
+    <link rel="stylesheet" href="../CSS/MinhasJoias.css">
+    <script src="../JavaScript/MinhasJoias.js" defer></script>
+</head>
+<body>
+<header>
+    <nav class="navbar">
+        <div class="usuario">
+            <img src="../Imagem/foto perfil.png" alt="">
+            <span>Olá, <b>Ana Ester</b></span>
+        </div>
+        <div class="linksNavbar">
+            <a href="../Html/Home.html">Home</a>
+            <a href="#">Produtos</a>
+            <a href="../Html/Meu Perfil.html">Meu Perfil</a>
+        </div>
+    </nav>
+</header>
+<main>
+    <section id="abas">
+        <div id="container">
+            <div class="tab-menu">
+                <div class="tab-buttons">
+                    <img class="icone-perfil-normal" src="../Imagem/icone pessoa.png" alt="icone pessoa">
+                    <button onclick="meusDados()" type="button" class="tab-btn" content-id='meus-dados'>Meus Dados</button>
+                </div>
+                <div class="tab-buttons">
+                    <img class="icone-perfil-normal" src="../Imagem/icone cupom.png" alt="icone cupom">
+                    <button onclick="meusResgates()" type="button" class="tab-btn" content-id='meus-dados'>Meus resgates</button>
+                </div>
+                <div class="tab-buttons">
+                    <img class="icone-perfil" src="../Imagem/icone joia.png" alt="icone de uma jóia">
+                    <button onclick="minhasJoias()" type="button" class="tab-btn" content-id='meus-dados'>Minhas jóias</button>
+                </div>
+                <div class="tab-buttons">
+                    <img class="icone-perfil-normal" src="../Imagem/icone sair.png" alt="icone de uma porta com direção para fora">
+                    <button onclick="sair()" type="button" class="tab-btn" content-id='meus-dados'>Sair</button>
+                </div>
+            </div>
+            <div class="tab-conteudo">
+                <div class="content" id='meus-dados'>
+                    <h2>Minhas joaias</h2>
+                    <div class="joias">
+                        <div>
+                            <img src="../Imagem/joia amarela.png" alt="joia amarela">
+                        </div>
+                        <div class="conteudo-joias">
+                            <h5>Joia da mente</h5>
+                            <span>2 jóias</span>
+                            <p>O poder dessa joia está na possibilidade de transformar ideias em palavras, com assertividade na transmissão e receptividade das informações.</p>
+                        </div>
+                    </div>
+                    <div class="joias">
+                        <div>
+                            <img src="../Imagem/joia roxa.png" alt="joia roxa quase transparente">
+                        </div>
+                        <div class="conteudo-joias">
+                            <h5>Joia do poder</h5>
+                            <span>1 jóia</span>
+                            <p>Esta poderosa joia traz consigo alto nível de energia e empatia para lidar com colegas de trabalho, aquele que a possui demonstra a capacidade de lidar com diversos perfis, bem como proatividade e compartilhamento de informações.</p>
+                        </div>
+                    </div>
+                    <div class="joias">
+                        <div>
+                            <img src="../Imagem/joia azul.png" alt="joia na cor azul turquesa">
+                        </div>
+                        <div class="conteudo-joias">
+                            <h5>Joia do espaço</h5>
+                            <span>3 jóias</span>
+                            <p>Esta joia traz consigo a capacidade de se adaptar e estimula o interesse por mudanças, variedades de experiências e novas ideias.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+</body>
+</html>
