@@ -29,11 +29,11 @@
     color: #502B6B;
 }
 
-.linksNavbar{
+.links{
     display: flex;
     gap: 4em;
 }
-.linksNavbar a{
+.links a{
     color:#000000;
     font-size: 18px;
     text-decoration: none;
@@ -44,7 +44,7 @@
     justify-content: space-around;
     margin: 5em auto;    
 }
-.tab-buttons{
+.buttons{
     display: flex;
     align-self: center;
     border-bottom: 1px solid #EEEEEE;
@@ -53,17 +53,17 @@
     padding-bottom: 1em;
     margin-bottom: 1em;
 }
-.icone-perfil{
+.iconePerfill{
     background-color: #502B6B;
     border-radius: 8px;
     padding: 0.5em;
-}
-
-.icone-perfil-normal{
     background-color: #F3E3FF;
     border-radius: 8px;
     padding: 0.5em;
 }
+
+
+
 .tab-btn{
     background: none;
     outline: none;
@@ -73,10 +73,8 @@
     font-weight: 600;
     border: none;
 }
-.linha-abaixo{
-    border-bottom: 1px solid #EEEEEE;
-}
-.tab-conteudo{
+
+.conteudo{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -99,29 +97,4 @@
     padding: 2em 0;
 }
 
-.data{
-    font-size: 16px;
-    color: #757575;
-}
 
-
-.informacoes h3{
-    color: #212121;
-    width: 226px;
-    font-size: 14px;
-    font-weight: 600;
-    margin-bottom: 0.5em;
-}
-.informacoes span{
-    color: #9E9E9E;
-    font-size: 12px;
-}
-
-.informacoes img{
-    width: 50%;
-    max-width: 270px;
-    border-radius: 16px;
-    border: 1px solid #EEEEEE;
-    background: #EEEEEE;
-    margin-bottom: 0.5em;
-}

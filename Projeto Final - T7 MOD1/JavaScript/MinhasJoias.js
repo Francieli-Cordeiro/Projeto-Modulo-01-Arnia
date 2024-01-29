@@ -1,15 +1,15 @@
 const meusDados = () => {
-    window.location = '../html/meus-dados.html'
+    window.location = '../html/meuPerfil.html'
 }
 
 const meusResgates = () => {
-    window.location = '../html/meus-resgates.html'
+    window.location = '../Html/MeusResgates.html'
 }
 
 const minhasJoias = () => {
-    window.location = '../html/minhas-joias.html'
+    window.location = '../Html/MinhasJoias.html'
 }
 
 const sair = () => {
-    window.location = '../html/abertura.html'
+    window.location = '../Html/Index.html'
 }

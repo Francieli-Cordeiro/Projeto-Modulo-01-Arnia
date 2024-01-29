@@ -1,13 +1,13 @@
 const meusDados = () => {
-    window.location = '../html/meus-dados.html'
+    window.location = '../Html/MeuPerfil.html'
 }
 
 const minhasJoias = () => {
-    window.location = '../html/minhas-joias.html'
+    window.location = '../Html/MinhasJoias.html'
 }
 
 const sair = () => {
-    window.location = '../html/abertura.html'
+    window.location = '../Html/Index.html'
 }
 
 const mostrarResgates = (dadosApi) => {
