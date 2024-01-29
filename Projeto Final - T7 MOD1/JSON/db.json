@@ -31,50 +31,50 @@
        } , 
        {
         "id": 5,
-        "nome": " Fone De Ouvido Bluetooth ",
+        "nome": " JBL, Fone de Ouvido On ear, Tune 520BT - Azul ",
         "preco": "27 ",
-        "descricao": "Fone De Ouvido Bluetooth 5.0 Sem Fio Tws Compatível Com Iphone Android",
-        "imagem": "../Imagem/produtos/fone de ouvido.jpg "
+        "descricao": " JBL, Fone de Ouvido On ear, Tune 520BT - Azul",
+        "imagem": "../Imagem/produtos/fone jbl.jpg"
       },
         {
           "id": 6,
-          "nome": " Fone De Ouvido Bluetooth ",
-          "preco": "27",
-          "descricao": "Fone De Ouvido Bluetooth 5.0  Sem Fio Tws Compatível Com Iphone Android",
-          "imagem": "../Imagem/produtos/fone de ouvido.jpg "
+          "nome": " Fone De Ouvido com fio JBL",
+          "preco": "16",
+          "descricao": "JBL, Fone de Ouvido in Ear, C50HI - Preto",
+          "imagem": "../Imagem/produtos/fone com fio jbl.jpg"
         },
         {
           "id": 7,
-          "nome": " Fone De Ouvido Bluetooth ",
-          "preco": "27 ",
-          "descricao": "Fone De Ouvido Bluetooth 5.0  Sem Fio Tws Compatível Com Iphone Android",
-          "imagem": "../Imagem/produtos/fone de ouvido.jpg "
+          "nome": "Notebook Samsung Book Intel® Core™ ",
+          "preco": "8 ",
+          "descricao": "Samsung Book Intel® Core™ i3-1115G4, Windows 11 Home, 4GB, 256GB SSD, 15.6'' Full HD LED, NP550XDA-KV3BR, Cinza",
+          "imagem": "../Imagem/produtos/notebook samsung.jpg"
         },
         {
           "id": 8,
-          "nome": " Fone De Ouvido Bluetooth ",
-          "preco": "27.74 ",
-          "descricao": "Fone De Ouvido Bluetooth 5.0  Sem Fio Tws Compatível Com Iphone Android",
-          "imagem": "../Imagem/produtos/fone de ouvido.jpg "
+          "nome": " Fone de Ouvido XT80 Esportivo Bluetooth ",
+          "preco": "27 ",
+          "descricao": "Fone de Ouvido XT80 Esportivo Bluetooth 5.3 Sem Fio TWS À Prova D'água HiFi Com Cancelamento De Ruído Microfone Para LED Display",
+          "imagem": "../Imagem/produtos/fone esportivo lenovo.jpg "
         }
         
-    ]
+    ],
     "resgates": [
       {
-        "id": "7de7",
-        "produtoId": 2,
-        "nome": "Notebook ABC",
-        "imagem": "../img/Produtos/51ydgHcdC9L._AC_SL1000_.jpg",
-        "joias": "5",
-        "horario": "23 de janeiro"
+        "id": "2525",
+        "produtoId": 8,
+        "nome":" Fone De Ouvido Bluetooth ",
+        "imagem": "../Imagem/produtos/fone de ouvido.jpg ",
+        "joias": "27",
+        "horario": "30 de fevereiro"
       },
       {
-        "id": "3837",
-        "produtoId": 3,
-        "nome": "Smartphone A31",
-        "imagem": "https://i0.wp.com/www.socialnews.xyz/wp-content/uploads/2023/03/15/bd2699709ff9b92ed09de2a756837446.jpg?quality=80&zoom=1&ssl=1",
+        "id": "2526",
+        "produtoId": 1,
+        "nome": "Teclado sem fio BT teclado dobrável ",
+        "imagem": "../Imagem/produtos/teclado dobravel.jpg",
         "joias": "2",
-        "horario": "23 de janeiro"
+        "horario": "30 de fevereiro"
       }
     ],
     "usuarios":[

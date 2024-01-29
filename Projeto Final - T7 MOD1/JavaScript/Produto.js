@@ -1,4 +1,3 @@
-
 const divProdutosSelecionados = document.querySelector('.produtoSelecionado')
 let id = null
 let dados = null

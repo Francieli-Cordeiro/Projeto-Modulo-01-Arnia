@@ -14,6 +14,10 @@
     font-family: "Sora", sans-serif;
 }
 
+.links{
+    display: flex;
+    gap: 4em;}
+
 .inicioPagina{
     background-image: url(../Imagem/imagem\ certa.png);
     background-repeat:no-repeat;
@@ -161,7 +165,7 @@
     border-radius: 16px;
  }
 
- .informacaoBanner{
+ .infoBanner{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -172,28 +176,26 @@
     padding: 0 64px;
  }
 
- .informacaoBanner h4{
+ .infoBanner h4{
     color:white;
     font-size: 16px;
     font-weight: 400;
     text-transform: uppercase;
  }
 
- .informacaoBanner h3{
+ .infoBanner h3{
     
     font-size: 40px;
     font-weight: 700;
     letter-spacing: 0.2px;
-
-
  }
 
- .informacaoBanner h5{
+ .infoBanner h5{
     color: #DCB6F8;
     font-size: 18px;
     font-weight: 400;
  }
- .datas-info{
+ .infoData{
     display: flex;
     align-items: center;
     gap: 0.5em;

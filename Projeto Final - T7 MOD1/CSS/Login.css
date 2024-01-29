@@ -6,7 +6,6 @@ body {
     background-image: url(../Imagem/imagem\ certa.png);
     background-repeat: no-repeat;
     background-size: cover; 
-
 }
 
 .logo{
@@ -21,17 +20,15 @@ align-items: center;*/
     justify-content: center;
     align-items: center;
     width: 50vw;
-    height: 100vh;
-    
+    height: 100vh; 
 }
+
 .imagemLogo img{
    /* imagemLogo da logo */
     width: 50%;
 }
 
-
 .facaLogin{
-
     display: flex;
     justify-content: center;
     background-color: white;
@@ -40,20 +37,7 @@ align-items: center;*/
     border-top-left-radius: 30px;
     border-bottom-left-radius: 30px;
     flex-direction:column;
-    align-items:center;
-    /*width: 235px;
-    height: 45px;
-    top: 253px;
-    left: 896px;
-font-size: 32px;
-font-weight: 700;
-line-height: 45px;
-letter-spacing: 0.20px;
-text-align:left;
-justify-content: center;
-background-color: white;*/
-
-   
+    align-items:center;   
 }
 
 .login h1{
@@ -62,31 +46,28 @@ background-color: white;*/
     font-weight: 700;
     margin-bottom: 0.5em;
     text-align: left;
- width: 15em;
-    
+ width: 15em;   
 }
+
 .login span {
     text-align: left;
     width: 30em;
-
-
 }
 
 label{
     margin-left: 0.5em;
     color: darkgrey;
 }
+
 input{
-    
     padding: 0.4em;
     font-size: 18px;
     font-weight: 500;
     width: 30 em;
     border: none;
-    outline:none;
-
-  
+    outline:none;  
 }
+
 
 .input{
   padding: 0.5em;
@@ -94,17 +75,6 @@ input{
   border-radius: 15px;
   width: 30em;
   margin: 0.8em;
-
-/* width: 382px;
-height: 72px;
-top: 528px;
-left: 896px;
-padding: 12px, 64px, 12px, 64px;
-border-radius: 16px;
-gap: 10px; */
-
-
-  
 }
 
 button{
