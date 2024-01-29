@@ -5,7 +5,7 @@ const resgatarProduto = (id) => {
 const mostrarDados = (produtos) => {
 const Produtos = document.querySelector('.resgatarProdutos')
 
-produtos.forEach(produto => {
+produtos.forEach (produto => {
     const id = produto.id
     const nome = produto.nome
     const preco = produto.preco
@@ -18,7 +18,9 @@ produtos.forEach(produto => {
             <h2>${nome}</h2>
             <span>${preco} jóias</span>
             <button class="resgatar" onclick="resgatarProduto('${id}')">Resgatar</button>
-        </div> `
+        </div> 
+        
+        `
 })
 }
 

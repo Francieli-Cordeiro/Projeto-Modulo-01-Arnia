@@ -1,3 +1,4 @@
-const iniciarLogin = () => {
-    window.location = '../html/home.html'
+const login = () => {
+    window.location= "../Html/Home.html "
+
 }
