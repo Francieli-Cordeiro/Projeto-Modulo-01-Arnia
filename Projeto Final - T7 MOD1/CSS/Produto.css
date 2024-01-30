@@ -28,11 +28,11 @@
     color: #502B6B;
 }
 
-.linksNavbar{
+.links{
     display: flex;
     gap: 4em;
 }
-.linksNavbar a{
+.links a{
     color:#000000;
     font-size: 18px;
     text-decoration: none;
@@ -54,12 +54,6 @@
     max-height: 410px;
     border: 1px solid #F5F4F9;
     border-radius: 16px;
-}
-
-.produtoSelecionado div:last-child{
-    display: flex;
-    flex-direction: column;
-    gap: 1.5em;
 }
 
 .produtoSelecionado b{

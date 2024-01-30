@@ -15,7 +15,7 @@ const resgatarProduto = async(id) =>{
         id
     }
     await salvarResgate(produto)
-    window.location = `../html/produtoResgatado.html?id=${id}`
+    window.location = `../Html/produtoResgatado.html?id=${id}`
 }
 
 const salvarResgate = async() => {

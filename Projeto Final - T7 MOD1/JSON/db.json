@@ -59,24 +59,7 @@
         }
         
     ],
-    "resgates": [
-      {
-        "id": "2525",
-        "produtoId": 8,
-        "nome":" Fone De Ouvido Bluetooth ",
-        "imagem": "../Imagem/produtos/fone de ouvido.jpg ",
-        "joias": "27",
-        "horario": "30 de fevereiro"
-      },
-      {
-        "id": "2526",
-        "produtoId": 1,
-        "nome": "Teclado sem fio BT teclado dobrável ",
-        "imagem": "../Imagem/produtos/teclado dobravel.jpg",
-        "joias": "2",
-        "horario": "30 de fevereiro"
-      }
-    ],
+  
     "usuarios":[
       {
         "id":"1",

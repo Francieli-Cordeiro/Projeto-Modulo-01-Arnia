@@ -11,38 +11,9 @@ const getProdutos = async(id) => {
 }
 
 const voltarPágina = () =>{
-    window.location = `../html/home.html`
+    window.location = `../Html/Home.html`
 }
 
-const mostrarProdutos = (produtos) => {
-    conteudoResgatado.innerHTML +=
-    `
-    
-    <div class=informacoes-produto>
-        <p class='resgatado'>Produto resgatado com sucesso!</p>
-        <div class=conteudo-produto>
-            <div>
-                <img class='imagem-produto' src="${produtos.imagem}" alt="">
-            </div>   
-            <div>
-                <h2 class='nome-produto'>${produtos.nome}</h2>
-                <span class='valor-produto'> Por: <b>${produtos.preco}</b> <i class="fa-regular fa-gem"></i></span>
-            </div>
-        </div>
-        <div>
-            <p class='texto-retirada'>Parabéns por resgatar seu produto! Você pode retirá-lo em nossa loja física localizada no endereço:
-            <br><br>
-            Rua das Inovações, 123<br>
-            Bairro Tecnológico<br>
-            Cidade Digital
-            <br><br>
-            Estamos ansiosos para recebê-lo e proporcionar uma experiência incrível ao retirar o seu produto. Agradecemos por fazer parte do nosso programa de fidelidade. Qualquer dúvida, entre em contato conosco. Até breve!</p>
-            <span class='saldo-total'><span>Meu saldo:</span> 4 <i class="fa-regular fa-gem"></i></span>
-        </div>
-        <button class='voltarInicial' onclick="voltarPágina()">Voltar à página inicial</button>
-    </div>
-    `
-}
 
 const carregarSelecionado = async() => {
     const parametros = window.location.search

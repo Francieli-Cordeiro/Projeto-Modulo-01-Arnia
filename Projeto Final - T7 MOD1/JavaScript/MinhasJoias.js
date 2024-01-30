@@ -1,5 +1,5 @@
 const meusDados = () => {
-    window.location = '../html/meuPerfil.html'
+    window.location = '../Html/meuPerfil.html'
 }
 
 const meusResgates = () => {
