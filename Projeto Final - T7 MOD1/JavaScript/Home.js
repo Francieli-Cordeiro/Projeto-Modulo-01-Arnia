@@ -12,7 +12,9 @@ produtos.forEach (produto => {
     const descricao = produto.descricao
     const imagem = produto.imagem
 
+    /* o que vai aparecer no html*/
     Produtos.innerHTML += 
+    
     `   <div>
             <img src="${imagem}">
             <h2>${nome}</h2>
