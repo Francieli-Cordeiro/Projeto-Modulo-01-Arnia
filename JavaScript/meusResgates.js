@@ -7,7 +7,7 @@ const minhasJoias = () => {
 }
 
 const sair = () => {
-    window.location = '../Html/Index.html'
+    window.location = 'index.html'
 }
 
 const mostrarResgates = (dadosApi) => {

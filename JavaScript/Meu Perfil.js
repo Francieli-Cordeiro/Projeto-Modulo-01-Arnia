@@ -7,7 +7,7 @@ const minhasJoias = () => {
 }
 
 const sair = () => {
-    window.location = '../Html/index.html'
+    window.location = 'index.html'
 }
 
 const mostrarDados = (resposta) => {
