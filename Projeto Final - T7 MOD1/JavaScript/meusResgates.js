@@ -36,7 +36,7 @@ const mostrarResgates = (dadosApi) => {
 }
 
 const carregarResgates = async() => {
-    const resposta = await fetch('http://localhost:3000/resgates')
+    const resposta = await fetch('https://api-projeto-obfk.onrender.com/resgates')
     console.log(resposta)
     const dados = await resposta.json()
     console.log(dados)

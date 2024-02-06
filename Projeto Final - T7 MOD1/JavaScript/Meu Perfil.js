@@ -19,7 +19,7 @@ const mostrarDados = (resposta) => {
 }
 
 const carregarDados = async() => {
-    const dados = await fetch('http://localhost:3000/usuarios')
+    const dados = await fetch('https://api-projeto-obfk.onrender.com/usuarios')
     console.log(dados)
     const resposta = await dados.json()
     console.log(resposta)

@@ -29,7 +29,7 @@ const resgatarProduto = (id) => {
 }
 
 const carregarDados = async() => {
-const dados = await fetch ('http://localhost:3000/produtos')
+const dados = await fetch ('https://api-projeto-obfk.onrender.com/produtos')
 console.log(dados)
 const produtos = await dados.json()
 console.log(produtos)
