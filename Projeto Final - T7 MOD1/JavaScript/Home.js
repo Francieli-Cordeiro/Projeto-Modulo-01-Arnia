@@ -1,6 +1,4 @@
-const resgatarProduto = (id) => {
-    window.location.href = `../Html/produto.html?id=${id}`
-}
+
 
 const mostrarDados = (produtos) => {
 const Produtos = document.querySelector('.resgatarProdutos')
@@ -24,6 +22,10 @@ produtos.forEach (produto => {
         
         `
 })
+}
+
+const resgatarProduto = (id) => {
+    window.location.href = `../Html/produto.html?id=${id}`
 }
 
 const carregarDados = async() => {
