@@ -6,7 +6,7 @@
     font-family: "Sora", sans-serif;
 }
 
-.navbar{
+.barradenavegar{
     display: flex;
     justify-content: space-between;
     padding: 2em 5em;
@@ -76,7 +76,3 @@
     font-size: 18px;
     font-weight: 700;
 }
-.produtoSelecionado div:last-child{
-    display: flex;
-    flex-direction: column;
-    gap: 1.5em; }

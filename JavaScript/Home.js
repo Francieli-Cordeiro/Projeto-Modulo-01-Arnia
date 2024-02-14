@@ -1,6 +1,6 @@
 
 const resgatarProduto = (id) => {
-    window.location.href = `../Html/produto.html?id=${id}`
+    window.location.href = `../Html/produto.html?${id}`
 }
 
 const mostrarDados = (produtos) => {
@@ -26,8 +26,6 @@ produtos.forEach (produto => {
         `
 })
 }
-
-
 
 const carregarDados = async() => {
 const dados = await fetch ('https://api-projeto-obfk.onrender.com/produtos')

@@ -7,7 +7,7 @@ const minhasJoias = () => {
 }
 
 const sair = () => {
-    window.location = 'index.html'
+    window.location = '../index.html'
 }
 
 const mostrarResgates = (dadosApi) => {
@@ -20,6 +20,7 @@ const mostrarResgates = (dadosApi) => {
         const preco = resgatados.joias
 
        resgate.innerHTML += `
+      
        <div class="card">
             <div class='data'>
                 <span>${data}</span>

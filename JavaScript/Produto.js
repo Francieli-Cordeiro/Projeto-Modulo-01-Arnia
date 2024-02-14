@@ -1,52 +1,14 @@
-const divProdutosSelecionados = document.querySelector('.produtoSelecionado')
-let id = null
-let dados = null
-let produtos = null
+
 
 const getProdutos = async(id) => {
-    let resposta = await fetch(`https://api-projeto-obfk.onrender.com/produtos?id=
-    ${id}`)  //Busca o produto com base no ID passado como parâmetro na URL
-    dados = await resposta.json()   //Transforma a resposta
-    return dados[0]      //Retorna apenas um único produto, pois estamos buscando por ID e não por array de produtos
+    const resposta = await fetch(`https://api-projeto-obfk.onrender.com/produtos${id}`)  //Busca o produto com base no ID passado como parâmetro na URL
+    const dados = await resposta.json()   //Transforma a resposta
+    return dados     //Retorna apenas um único produto, pois estamos buscando por ID e não por array de produtos
 }
-
-const resgatarProduto = async(id) =>{
-    const produto = {
-        id
-    }
-    await salvarResgate(produto)
-    window.location = `../Html/produtoResgatado.html?id=${id}`
-}
-
-const salvarResgate = async() => {
-    
-    const url = 'https://api-projeto-obfk.onrender.com/resgates'
-    const options = {
-        month:"long",
-        day:"numeric"
-    }
-    const data = {
-        produtoId: produtos.id,
-        nome: produtos.nome,
-        imagem: produtos.imagem,
-        joias: produtos.preco,
-        horario: new Date().toLocaleDateString('pt-BR', options)
-        
-    }
-
-    const resposta = await fetch(url,{
-        method: 'POST',
-        headers:{
-            "Accept": 'application/json, text/plain, */*', 
-            "Content-Type": "application/json"
-        },
-        body: JSON.stringify(data)
-    })
-}
-
 
 const mostrarProdutos = (produtos) => {
     divProdutosSelecionados.innerHTML +=
+   
     `
     <div>
         <img src="${produtos.imagem}" alt="">
@@ -60,16 +22,16 @@ const mostrarProdutos = (produtos) => {
     `
 }
 
-const carregarSelecionado = async() => {
+const resgatarProduto = async () => { 
     const parametros = window.location.search
-    console.log(parametros)
     const objetoParametros = new URLSearchParams(parametros)
-    console.log(objetoParametros)
-    id = objetoParametros.get('id')
+    const id = objetoParametros.get('id')
     console.log(id)
 
-    produtos = await getProdutos(id)
-    mostrarProdutos(produtos)
+    const dados = await getProdutos(id)
 
+    console.log(dados)
 }
-carregarSelecionado()
+    
+resgatarProduto()
+

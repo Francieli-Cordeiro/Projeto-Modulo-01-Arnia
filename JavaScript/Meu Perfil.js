@@ -7,7 +7,7 @@ const minhasJoias = () => {
 }
 
 const sair = () => {
-    window.location = 'index.html'
+    window.location = '../index.html'
 }
 
 const mostrarDados = (resposta) => {
@@ -19,7 +19,7 @@ const mostrarDados = (resposta) => {
 }
 
 const carregarDados = async() => {
-    const dados = await fetch('https://api-projeto-obfk.onrender.com/usuarios')
+    const dados = await fetch('https://api-projeto-obfk.onrender.com/usuario')
     console.log(dados)
     const resposta = await dados.json()
     console.log(resposta)

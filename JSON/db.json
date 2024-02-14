@@ -2,65 +2,65 @@
     "produtos":
     [
         {
-            "id": 1,
+            "id": "1",
             "nome": "Teclado sem fio BT teclado dobrável ",
             "preco": " 18",
             "descricao": "Homesen Teclado sem fio BT teclado dobrável portátil ultra fino teclado BT com touchpad para Windows/Android/iOS Cinza ",
             "imagem": "../Imagem/produtos/teclado dobravel.jpg"
           },
           {
-            "id": 2,
+            "id": "2",
             "nome": "Mouse Sem Fio Recarregavel",
             "preco": "7",
             "descricao": "Mouse Sem Fio Recarregavel 2.4g Wireless USB para Notebook Desktop TV (PRETO)",
             "imagem": "../Imagem/produtos/mouseSemFio.jpg"
           },
           {
-            "id": 3,
+            "id": "3",
             "nome": "Mouse Pad Preto ",
             "preco": "5 ",
             "descricao": " Pad mouse preto de borracha ",
             "imagem": "../Imagem/produtos/mousePad.jpg "
           },
           {
-            "id": 4,
+            "id": "4",
             "nome": " Fone De Ouvido Bluetooth ",
             "preco": "15 ",
             "descricao": "Fone De Ouvido Bluetooth 5.0 Sem Fio Tws Compatível Com Iphone Android",
             "imagem": "../Imagem/produtos/fone de ouvido.jpg "
        } , 
        {
-        "id": 5,
+        "id": "5",
         "nome": " JBL, Fone de Ouvido On ear, Tune 520BT - Azul ",
         "preco": "27 ",
         "descricao": " JBL, Fone de Ouvido On ear, Tune 520BT - Azul",
         "imagem": "../Imagem/produtos/fone jbl.jpg"
       },
         {
-          "id": 6,
+          "id": "6",
           "nome": " Fone De Ouvido com fio JBL",
           "preco": "16",
           "descricao": "JBL, Fone de Ouvido in Ear, C50HI - Preto",
           "imagem": "../Imagem/produtos/fone com fio jbl.jpg"
         },
         {
-          "id": 7,
+          "id": "7",
           "nome": "Notebook Samsung Book Intel® Core™ ",
           "preco": "8 ",
           "descricao": "Samsung Book Intel® Core™ i3-1115G4, Windows 11 Home, 4GB, 256GB SSD, 15.6'' Full HD LED, NP550XDA-KV3BR, Cinza",
           "imagem": "../Imagem/produtos/notebook samsung.jpg"
         },
         {
-          "id": 8,
+          "id":"8",
           "nome": " Fone de Ouvido XT80 Esportivo Bluetooth ",
-          "preco": "27 ",
+          "preco": "27",
           "descricao": "Fone de Ouvido XT80 Esportivo Bluetooth 5.3 Sem Fio TWS À Prova D'água HiFi Com Cancelamento De Ruído Microfone Para LED Display",
           "imagem": "../Imagem/produtos/fone esportivo lenovo.jpg "
         }
         
     ],
   
-    "usuarios":[
+    "usuario":[
       {
         "id":"1",
         "login":"admin",

@@ -28,7 +28,7 @@
     border-bottom-right-radius: 40px;
 }
 
-.navbar{
+.barradenavegar{
     display: flex;
     justify-content: space-between;
     padding: 3em 10em;
@@ -50,11 +50,11 @@
     color: white;
 }
 
-.navbar{
+.barradenavegar{
     display: flex;
     gap: 4em;
 }
-.navbar a{
+.barradenavegar a{
     color: white;
     text-decoration: none;
 
@@ -124,7 +124,7 @@
     background-color: white;
     width: 560px;
     height: 72px;
-    border-radius: 5px;
+    border-radius: 8px;
     box-shadow: 0px 7px 30px 0px #BBC0CD66;
     margin: 0 auto;
     position: relative;
