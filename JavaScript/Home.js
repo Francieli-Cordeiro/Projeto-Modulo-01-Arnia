@@ -1,6 +1,6 @@
 
 const resgatarProduto = (id) => {
-    window.location.href = `../Html/produto.html?${id}`
+    window.location.href = `../Html/produto.html?id=${id}`
 }
 
 const mostrarDados = (produtos) => {
