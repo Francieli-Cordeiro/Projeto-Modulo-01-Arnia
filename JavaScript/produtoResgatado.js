@@ -4,9 +4,9 @@ const getProduto = async(id) => {
     console.log(dados)
     return dados     //Retorna apenas um único produto, pois estamos buscando por ID e não por array de produtos
 }
-// vai mostra na pagina 
+// o que vai mostra na pagina 
 const mostrarProduto = (produtos) => { 
-    let div = document.getElementById("produtoSelecionado") // estou pegando a div do html pelo id produtos selecionado.
+    let div = document.getElementById("produtoResgatado") // estou pegando a div do html pelo id produtos selecionado.
     div.innerHTML += // colocarei dentro da div usando o innerhtml as caracteristicas do produto ( imagem,nome,preço,descrição)
 
     `
@@ -20,7 +20,6 @@ const mostrarProduto = (produtos) => {
         <button class='resgatar' onclick="resgatarProduto('${produtos.id}')">Resgatar</button>
     </div> 
     `
-    console.log(div)
 }
 
 const resgatarProduto = async (id) => {
