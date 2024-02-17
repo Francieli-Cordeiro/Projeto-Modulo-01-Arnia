@@ -6,18 +6,18 @@ const getProduto = async(id) => {
 }
 // o que vai mostra na pagina 
 const mostrarProduto = (produtos) => { 
-    let div = document.getElementById("produtoResgatado") // estou pegando a div do html pelo id produtos selecionado.
+    let div = document.getElementById("carddoItem") // estou pegando a div do html pelo id produtos selecionado.
     div.innerHTML += // colocarei dentro da div usando o innerhtml as caracteristicas do produto ( imagem,nome,preço,descrição)
 
     `
-    <div>
+   
+    <div class="imgProduto">
         <img src="${produtos.imagem}" alt="">
-    </div>
-    <div>
-        <h2 class='nome-produto'>${produtos.nome}</h2>
-        <span> Por: <b>${produtos.preco}</b> <i class="regular"></i></span>
-        <p>${produtos.descricao}</p>
-        <button class='resgatar' onclick="resgatarProduto('${produtos.id}')">Resgatar</button>
+        <h2 class = 'produtoResgatadocomsucesso'>Produto Resgatado Com Sucesso !</h2>
+        <p>${produtos.nome}</p>
+        <p><span> Por: <b>${produtos.preco}</b> <img class="imgIconeJoia" src="../Imagem/icone joia.png" alt="imagem de Joia"> </span></p>
+        
+        <button class='voltarPagina' onclick="resgatarProduto('${produtos.id}')">Voltar a pagina inicial </button>
     </div> 
     `
 }
@@ -41,11 +41,9 @@ const resgatarProduto = async (id) => {
         "email": usuario1.email, 
         "produtos": produtos
     }
-    console.log
    
-    // aqui eu pegarei o produto e colocarei dentro da lista de produtos do usuario e enviarei para proxima pagina
-    //passando o id 
-   window.location = `../Html/produtoResgatado.html?id=${id}` 
+    // aqui mostra o resgate finalizado e envia para a pagina inicial novamente.
+   window.location = `../Html/Home.html?id=${id}` 
 }
 
 // vai buscar no html 

@@ -40,7 +40,15 @@ const resgatarProduto = async (id) => {
         "email": usuario1.email, 
         "produtos": produtos
     }
-    console.log
+    await fetch ('https://api-projeto-obfk.onrender.com/usuario/1',{ // estou acessando o local do meu ususario 
+    method:'PUT', // estou ultilizando o metodo PUT para atualizar o usuario que eu acessei
+    headers:{ // este conteudo e obrigatório 
+        'Accept':'application/json, text/plain, /',
+        'Content-Type':'application/json'
+    },
+    body: JSON.stringify(usuarioPronto) // estou atualizando o usuario pelo que foi montado aqui. 
+}) 
+
    
     // aqui eu pegarei o produto e colocarei dentro da lista de produtos do usuario e enviarei para proxima pagina
     //passando o id 

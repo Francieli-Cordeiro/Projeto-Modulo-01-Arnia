@@ -87,12 +87,20 @@
     display: flex;
     justify-content: flex-start;
     gap: 1em;
+    flex-wrap: wrap;
 }
-.card{
+.card {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     padding: 2em 0;
+    width: 100px;
+   
+}
+
+.card img {
+    width: 100px;
+
 }
 
 

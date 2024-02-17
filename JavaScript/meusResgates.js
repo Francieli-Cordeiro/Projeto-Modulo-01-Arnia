@@ -11,37 +11,26 @@ const sair = () => {
 }
 
 const mostrarResgates = (dadosApi) => {
-    const resgate = document.querySelector('.resgates')
+    const resgate = document.getElementById('resgates')
+  
+    dadosApi.forEach(element => {
+        resgate.innerHTML+=
+        `
+        <div class="card">
+                <img class="CardImg" src="${element.imagem}" alt="imagem perfil"/>
+                <h5>${element.nome}</h5>
+                <p>${element.preco} jóias</p>
 
-    dadosApi.forEach(resgatados => {
-        const data = resgatados.horario
-        const imagem = resgatados.imagem
-        const nome = resgatados.nome
-        const preco = resgatados.joias
-
-       resgate.innerHTML += `
-      
-       <div class="card">
-            <div class='data'>
-                <span>${data}</span>
             </div>
-            <div class='informacoes'>
-                <img src='${imagem}'>
-                <h3>${nome}</h3>
-                <span>${preco} jóias</span>
-            </div>
-       </div>
-       `
-    });
+            `
+    })
 
 }
 
 const carregarResgates = async() => {
-    const resposta = await fetch('https://api-projeto-obfk.onrender.com/resgates')
-    console.log(resposta)
-    const dados = await resposta.json()
-    console.log(dados)
+    const resposta = await fetch('https://api-projeto-obfk.onrender.com/usuario/1') 
+    const usuario = await resposta.json()
+    mostrarResgates(usuario.produtos)
 
-   mostrarResgates(dados)
 }
 carregarResgates()
