@@ -47,11 +47,18 @@
 }
 
 .produtoSelecionado img{
-    width: 90vw;
+    
+    top: 198px;
+    left: 135px;
+    border-radius: 16px;
+    border: 1px;
+
+    /* width: 470px;
+    height: 410px;
     max-width: 470px;
     max-height: 410px;
     border: 1px solid #F5F4F9;
-    border-radius: 16px;
+    border-radius: 5px;*/
 }
 
 .produtoSelecionado b{
@@ -71,4 +78,8 @@
     color: white;
     font-size: 18px;
     font-weight: 700;
+}
+.imgIconeJoia {
+    width: 15px;
+
 }

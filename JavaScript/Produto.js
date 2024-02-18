@@ -10,11 +10,11 @@ const mostrarProduto = (produtos) => {
 
     `
     <div>
-        <img src="${produtos.imagem}" alt="">
+        <img class= 'imagemProduto'src="${produtos.imagem}" alt="">
     </div>
     <div>
-        <h2 class='nome-produto'>${produtos.nome}</h2>
-        <span> Por: <b>${produtos.preco}</b> <i class="regular"></i></span>
+        <h2 class='nomeProduto'>${produtos.nome}</h2>
+        <p><span> Por: <b>${produtos.preco}</b> <img class="imgIconeJoia01" src="../Imagem/icone joia.png" alt="imagem de Joia"> </span></p>
         <p>${produtos.descricao}</p>
         <button class='resgatar' onclick="resgatarProduto('${produtos.id}')">Resgatar</button>
     </div> 

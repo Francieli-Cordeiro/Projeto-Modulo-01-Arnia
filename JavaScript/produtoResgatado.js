@@ -11,8 +11,8 @@ const mostrarProduto = (produtos) => {
 
     `
    
-    <div class="imgProduto">
-        <img src="${produtos.imagem}" alt="">
+    <div class="produtosContainer">
+        <img class="imgProduto" src="${produtos.imagem}" alt="">
         <h2 class = 'produtoResgatadocomsucesso'>Produto Resgatado Com Sucesso !</h2>
         <p>${produtos.nome}</p>
         <p><span> Por: <b>${produtos.preco}</b> <img class="imgIconeJoia" src="../Imagem/icone joia.png" alt="imagem de Joia"> </span></p>
