@@ -1,7 +1,7 @@
 const login = () => {
-    window.location= "../Html/Home.html "
-
+    window.location= "../Html/Home.html " // foi usado para redirecionar para outra pagina pelo JavaScript
 }
+
 
 const mostrarDados = (resposta) => {
     

@@ -1,12 +1,12 @@
 
 const resgatarProduto = (id) => {
-    window.location.href = `../Html/produto.html?id=${id}`
+    window.location.href = `../Html/produto.html?id=${id}` // foi usado para redirecionar para outra pagina pelo JavaScript
 }
 
 const mostrarDados = (produtos) => {
 const Produtos = document.querySelector('.resgatarProdutos')
 
-produtos.forEach (produto => {
+produtos.forEach (produto => { // foi usado o ForEach para formar a estrutura de reptição 
     const id = produto.id
     const nome = produto.nome
     const preco = produto.preco
