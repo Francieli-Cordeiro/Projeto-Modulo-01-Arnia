@@ -3,7 +3,7 @@ const getProduto = async(id) => {
     const dados = await resposta.json()   //Transforma a resposta em formato json
     return dados     //Retorna apenas um único produto, pois estamos buscando por ID e não por array de produtos
 }
-// vai mostra na pagina 
+// vai mostra na pagina /* o que vai aparecer no html ↓↓↓*/
 const mostrarProduto = (produtos) => { 
     let div = document.getElementById("produtoSelecionado") // estou pegando a div do html pelo id produtos selecionado.
     div.innerHTML += // colocarei dentro da div usando o innerhtml as caracteristicas do produto ( imagem,nome,preço,descrição)

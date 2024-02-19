@@ -13,6 +13,7 @@ const sair = () => {
 const mostrarResgates = (dadosApi) => {
     const resgate = document.getElementById('resgates')
   
+    /* o que vai aparecer no html ↓↓↓*/
     dadosApi.forEach(element => {
         resgate.innerHTML+=
         `
