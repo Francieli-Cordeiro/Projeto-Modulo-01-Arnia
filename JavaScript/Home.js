@@ -22,13 +22,12 @@ produtos.forEach (produto => {
             <span>${preco} jóias</span>
             <button class="resgatar" onclick="resgatarProduto('${id}')">Resgatar</button>
         </div> 
-        
         `
 })
 }
 
 const carregarDados = async() => {
-const dados = await fetch ('https://api-projeto-obfk.onrender.com/produtos')
+const dados = await fetch ('https://api-projeto-obfk.onrender.com/produtos') //acessando os produtos da Api//
 console.log(dados)
 const produtos = await dados.json()
 console.log(produtos)
