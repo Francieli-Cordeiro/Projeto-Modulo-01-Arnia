@@ -7,18 +7,20 @@
     src: url(../fonts/Guardians.ttf);
 }
 
-
+/* stilo geral ↓↓↓*/
 *{
     margin: 0;
     padding: 0;
     font-family: "Sora", sans-serif;
  
 }
-
+/* stilo da parte de cima da pagina ↓↓↓*/
 .links{
     display: flex;
-    gap: 4em;}
+    gap: 4em;
+}
 
+    /* stilo da imagem dde fundo parte de cima da pagina ↓↓↓*/
 .inicioPagina{
     background-image: url(../Imagem/imagem\ certa.png);
     background-repeat:no-repeat;
@@ -29,6 +31,7 @@
     border-bottom-right-radius: 40px;
 }
 
+ /* stilo do cabeçalho  ↓↓↓*/
 .barradenavegar{
     display: flex;
     justify-content: space-between;
@@ -36,67 +39,69 @@
     align-items: center;
 }
 
+ /* estilo de imagem e dados do usuario ↓↓↓*/
 .usuario{
     display: flex;
     align-items: center;
     gap: 1em;
 }
+
+/* estilo de imagem do usuario ↓↓↓*/
 .usuario img{
     width: 53px;
     height: 50px;
     border-radius: 50%;
 }
-
+ /* estilo para definir a cor da escrita dos dados do usuario ↓↓↓*/
 .usuario span{
     color: white;
 }
 
-.barradenavegar{
-    display: flex;
-    gap: 4em;
-}
+/* estilo para definir a cor e tirar as linhas abaixo dos links da ↓↓↓*/
 .barradenavegar a{
     color: white;
     text-decoration: none;
-
 }
 
+/* estilo para definir direção e alinhamento dos dados do saldo ↓↓↓*/
 .saldoPaginaInicial{
     display: flex;
     flex-direction: column;
     align-items: center;
     color: white;
 }
-.saldoPaginaInicialh2{
-    font-size: 24px;
-    font-weight: 400;
-}
+
+/* estilo para definir o numero do saldo ↓↓↓*/
 .saldoPaginaInicial h3{
     font-family: 'Guardians';
     font-size: 80px;
     color:#DCB8F8;
 }
 
+/* estilo para definir a palavra Joia ↓↓↓*/
 .saldoPaginaInicial h4{
     color:#DCB8F8;
     font-size: 24px;
     font-weight: 400;
 }
 
+/* estilo para definir as imagem das Joias ↓↓↓*/
 .joiasPaginaInicial{
     display: flex;
     margin-top: 2%;
     gap: 0.5em;
     align-items: center;
     justify-content: center;
-
 }
-
+/* estilo para definir ESPAÇO E COR "vence em 06/julho " ↓↓↓*/
 .lembretesHome{
     padding: 2em;
     text-align: center;
     color: white;
+    
 }
+
+/* estilo para definir "2º ciclo degestão de desempenho  " ↓↓↓*/
   /*first-child selecionar o primeiro elemento do elemento pai*/
 .lembretesHome div:first-child{
     font-size: 18px;
@@ -108,16 +113,13 @@
     margin: 0 auto;
 }
 
-.calendario{
-    color: #DCB6F8;
-    margin: 0 0.5em;
-}
-
+/*lest-child selecionar o ULTIMO elemento do elemento pai*/
 .lembretesHome div:last-child{
     font-size: 20px;
     line-height: 5em;
 }
 
+/*estilo da barra de pesquisa*/
 .barraPesquisa{
     display: flex;
     align-items:center;
@@ -130,30 +132,25 @@
     margin: 0 auto;
     position: relative;
     bottom: 50px;
-
 }
-
+/*estilo da imagem de Lupa na barra de pesquisa*/
 .barraPesquisa img{
    width: 32px; ;
    margin-left: 10px;
    padding-left: 20px;
-
 }
+/*estilo do Input "entrada" espaçamento,bordas, altura*/
 .barraPesquisa input{
     padding: 1em 1.5em;
     width: 80%;
     outline: 30;
     border: none;
     margin: 0 1em;
-   
-
+    color:#9E9E9E;
+    font-size: 18px; 
 }
 
-.barraPesquisa input::-webkit-input-placeholder {  
-    color:#9E9E9E;
-    font-size: 18px;  
- }
-
+/*estilo segundo banner da pagina,imagem,espaço bordas ... */
  .banner-avaliacao{
     display: flex;
     justify-content: space-around;
@@ -166,6 +163,7 @@
     border-radius: 16px;
  }
 
+ /*estilo segundo banner "data esta proxima"- "avaliação de dezempenho ... */
  .infoBanner{
     display: flex;
     flex-direction: column;
@@ -177,50 +175,56 @@
     padding: 0 64px;
  }
 
+ /*estilo segundo banner "data esta proxima" converter em MAIUSCULA */
  .infoBanner h4{
-    color:white;
-    font-size: 16px;
-    font-weight: 400;
     text-transform: uppercase;
  }
 
+/*estilo segundo banner  "avaliação de dezempenho" TAMANHO DA LETRA  E ESPAÇO ENTRE AS LETRAS... */
  .infoBanner h3{
-    
     font-size: 40px;
-    font-weight: 700;
     letter-spacing: 0.2px;
  }
 
+ /*estilo segundo banner  "25 de novembro" TAMANHO DA LETRA  E COR DA LETRA... */
  .infoBanner h5{
     color: #DCB6F8;
     font-size: 18px;
     font-weight: 400;
  }
+
+ /*estilo segundo banner  "IMAGEM DO CALENDARIO" Alinhamento na pagina. */
  .infoData{
     display: flex;
     align-items: center;
     gap: 0.5em;
  }
 
+ /*estilo segundo banner  "IMAGEM de pontos" Alinhamento da imagem na pagina. */
  .imagensGardioesePontos{
     display: flex;
     align-items: end;
  }
+
+ /*estilo segundo banner  "IMAGEM de pontos" Alinhamento da imagem na pagina de acordo com o pai  */
  .imagensGardioesePontos img:first-child{
     z-index: 1;
  }
  
+ /*estilo segundo banner  "IMAGEM de pontos" Alinhamento da imagem na pagina de acordo com o pai  */
  .imagensGardioesePontos img:last-child{ /* ultimofilho*/
     width: 170px;
     position: relative;
     right: 59px;
 }
-
+/* estilo das letras da Titulo " Produtos pra você" e posicionamento preencimento na lateral */
 .produtos h2{
     font-size: 32px;
-    font-weight: 700;
-    margin: 0 8.8 em;
+    padding: 0 50px;
+    margin: 0 auto;
+
 }
+/*alinhar a posição que os produtos vindo da Api aparecerão na pagina */
 .resgatarProdutos{
     display: flex;
     flex-wrap: wrap;
@@ -229,6 +233,7 @@
     align-items: flex-end;
     
 }
+/*alinhar a posição que os produtos  vindo da Api aparecerão na pagina, container → "nome,joias,botão" */
 .resgatarProdutos div{
     display: flex;
     flex-direction: column; 
@@ -237,7 +242,9 @@
     max-width: 270px;
     gap: 0.5em;
     border-radius: 16px;
+   
 }
+/*estilo da IMAGEM do produto vindo da Api ↓↓↓*/
 .presgatarProdutos img{
     width: 50%;
     height: 50%;
@@ -246,19 +253,24 @@
     margin: 0 auto;
     
 }
+
+/* estilo da ESCRITA do "nome do produto" vindo da Api*/
 .resgatarProdutos h2{
     font-size: 14px;
     text-align: start;
     margin: 0 auto;
     width: 75%;
 }
+
+/* estilo da ESCRITA "jOIAS" vindo da Api* COR, MARGEM,ALTURA */
 .resgatarProdutos span{
-    color: #9E9E9E;
+    color:#9E9E9E;
     font-size: 12px;
     margin: 0 auto;
     margin: 0 auto;
     width: 75%;
 }
+/* estilo do botão "resgatar" cor,altura,magem*/
 .produtos button{
     background-color: #502B6B;
     border-radius: 8px;
@@ -267,8 +279,4 @@
     padding: 0.8em;
     width: 80%;
     margin: 0 auto;
-}
-.iniciopaginacentralizar { 
-    display: flex;
-    flex-direction: column;
 }
