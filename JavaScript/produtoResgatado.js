@@ -31,13 +31,14 @@ const resgatarProduto = async (id) => {
     let produtos = usuario1.produtos // estou pegando a lista de produtos e adicionando em uma variavel 
     produtos.push(produto) // estou colocando o produto capiturado no id dentro da lista de produtos de usuarios 
 
-   usuarioPronto = { 
+     usuarioPronto = { 
+    // ↑↑ e um objeto //
         
-        "id": usuario1.id,
-        "login": usuario1.login,
-        "senha": usuario1.senha,
-        "nome": usuario1.nome,
-        "email": usuario1.email, 
+        "id": usuario1.id,   // dentro do objeto ficam as classes //
+        "login": usuario1.login, // dentro do objeto ficam as classes //
+        "senha": usuario1.senha, // dentro do objeto ficam as classes //
+        "nome": usuario1.nome, // dentro do objeto ficam as classes //
+        "email": usuario1.email,  // dentro do objeto ficam as classes //
         "produtos": produtos
     }
    
