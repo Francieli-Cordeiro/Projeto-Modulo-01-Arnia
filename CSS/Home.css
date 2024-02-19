@@ -151,7 +151,7 @@
 }
 
 /*estilo segundo banner da pagina,imagem,espaço bordas ... */
- .banner-avaliacao{
+ .bannerAvaliacao{
     display: flex;
     justify-content: space-around;
     width: 80%;
