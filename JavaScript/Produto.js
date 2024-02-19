@@ -32,6 +32,7 @@ const resgatarProduto = async (id) => {
     produtos.push(produto) // estou colocando o produto capiturado no id dentro da lista de produtos de usuarios 
 
    usuarioPronto = { 
+    // ↑↑ e um objeto //
         
         "id": usuario1.id,
         "login": usuario1.login,
@@ -48,8 +49,6 @@ const resgatarProduto = async (id) => {
     },
     body: JSON.stringify(usuarioPronto) // estou atualizando o usuario pelo que foi montado aqui. 
 }) 
-
-   
     // aqui eu pegarei o produto e colocarei dentro da lista de produtos do usuario e enviarei para proxima pagina
     //passando o id 
    window.location = `../Html/produtoResgatado.html?id=${id}` 
