@@ -32,7 +32,7 @@ const mostrarResgates = (dadosApi) => {
 const carregarResgates = async() => {  // async PAUSA a promessa Await RECEBE a promessa
     const resposta = await fetch('https://api-projeto-obfk.onrender.com/usuario/1')  // fetch BUSCA no banco de dados o ususario
     const usuario = await resposta.json()   // transformando a resposta em Json
-    mostrarResgates(usuario.produtos)
+    mostrarResgates(usuario.produtos)  // traz o resutado 
 
 }
-carregarResgates()
+carregarResgates() 

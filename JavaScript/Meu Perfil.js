@@ -18,11 +18,11 @@ const mostrarDados = (resposta) => {
     
 }
 
-const carregarDados = async() => { 
-    const dados = await fetch('https://api-projeto-obfk.onrender.com/usuario')
-    console.log(dados)
-    const resposta = await dados.json()
-    console.log(resposta)
+const carregarDados = async() => {   // async PAUSA a promessa Await RECEBE a promessa
+    const dados = await fetch('https://api-projeto-obfk.onrender.com/usuario')  // foi usado o ForEach para formar a estrutura de reptição 
+    console.log(dados) // "imprime no console"
+    const resposta = await dados.json()  // transformando a resposta em Json
+    console.log(resposta) // "imprime no console"// 
 
      mostrarDados(resposta)
 }
