@@ -10,7 +10,6 @@ const mostrarProduto = (produtos) => {
     div.innerHTML += // colocarei dentro da div usando o innerhtml as caracteristicas do produto ( imagem,nome,preço,descrição)
 
     `
-   
     <div class="produtosContainer">
         <img class="imgProduto" src="${produtos.imagem}" alt="">
         <h2 class = 'produtoResgatadocomsucesso'>Produto Resgatado Com Sucesso !</h2>
