@@ -1,19 +1,19 @@
 
-const resgatarProduto = (id) => {
+const resgatarProduto = (id) => { //verificando no banco de dados o produto que contem este id //
     window.location.href = `../Html/produto.html?id=${id}` // foi usado para redirecionar para outra pagina pelo JavaScript
 }
 
-const mostrarDados = (produtos) => {
-const Produtos = document.querySelector('.resgatarProdutos')
+const mostrarDados = (produtos) => { // busca o produto determinado
+const Produtos = document.querySelector('.resgatarProdutos') // retorna o produto dentro da classe 
 
-produtos.forEach (produto => { // foi usado o ForEach para formar a estrutura de reptição 
+produtos.forEach (produto => { // foi usado o ForEach para formar a estrutura de reptição  loop //
     const id = produto.id
     const nome = produto.nome
     const preco = produto.preco
     const descricao = produto.descricao
     const imagem = produto.imagem
 
-    /* o que vai aparecer no html*/
+    /* o que vai aparecer no html*/ 
     Produtos.innerHTML += 
     
     `   <div>

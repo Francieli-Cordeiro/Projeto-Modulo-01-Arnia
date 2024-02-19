@@ -3,20 +3,4 @@ const login = () => {
 }
 
 
-const mostrarDados = (resposta) => {
-    
-
-    document.querySelector('#nome').value = resposta[0].nome
-    document.querySelector('#email').value = resposta[0].email
-    
-}
-
-const carregarDados = async() => {
-    const dados = await fetch('https://api-projeto-obfk.onrender.com/usuario')
-    console.log(dados)
-    const resposta = await dados.json()
-    console.log(resposta)
-
-     mostrarDados(resposta)
-}
-carregarDados()
+/// foi apagado porque estava sem funcionabilidade , era pra salvar o email e o uduario mas não estava funcionando  
